@@ -7,5 +7,5 @@
 
 ### ```TestResult```
 ![alt text]( https://github.com/ppc-ntu-khpi/java-2-prikhodko25/blob/master/src/2.png)
-### Результат
+## Результат
 ![alt text]( https://github.com/ppc-ntu-khpi/java-2-prikhodko25/blob/master/src/3.png)
