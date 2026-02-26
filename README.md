@@ -6,3 +6,6 @@
 ![alt text]( https://github.com/ppc-ntu-khpi/java-2-prikhodko25/blob/master/src/1.png)
 
 ### ```TestResult```
+![alt text]( https://github.com/ppc-ntu-khpi/java-2-prikhodko25/blob/master/src/2.png)
+### Результат
+![alt text]( https://github.com/ppc-ntu-khpi/java-2-prikhodko25/blob/master/src/3.png)
