@@ -2,23 +2,25 @@
 
 public class Exercise {
 
-    public static String Calculate(int start, int end) {
-        StringBuilder primes = new StringBuilder();
+    public static String calculate(int start, int end) {
+        StringBuilder primeNumbers = new StringBuilder();
 
         for (int i = start; i <= end; i++) {
             if (isPrime(i)) {
-                if (primes.length() > 0) {
-                    primes.append(", ");
+                if (primeNumbers.length() > 0) {
+                    primeNumbers.append(", ");
                 }
-                primes.append(i);
+                primeNumbers.append(i);
             }
         }
-        return primes.toString();
+        return primeNumbers.toString();
     }
 
     private static boolean isPrime(int n) {
         if (n < 2) return false;
-        for (int i = 2; i <= Math.sqrt(n); i++) {
+
+        int limit = (int) Math.sqrt(n);
+        for (int i = 2; i <= limit; i++) {
             if (n % i == 0) return false;
         }
         return true;
